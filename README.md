@@ -1,9 +1,10 @@
 # Response to Review #1:
 
 # Response to Review #2:
-Thank you for recognizing the novelties and advantages of our method.
+Thank you for recognizing the novelties and advantages of our work.
 
 __Question A: Data sampling for fine-tuning__
+
 We conducted the model's fine-tuning on randomized data from various corpora. The objective was to tailor the model to perform well in high-resource languages, and generalization across multiple data sources is not our primary goal. Regarding evaluation, we assess the model performance of low-resource languages parsed from multiple corpora, as we said in Section 4.2.
 
 __Question B: Early stopping and data in validation step__
