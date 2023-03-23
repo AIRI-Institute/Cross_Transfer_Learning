@@ -8,7 +8,8 @@ However, our research focuses on an "out-of-the-wild" setting where we use relia
 Therefore, the quality of our data is essential, and we concentrate on using data that is of conventional quality.
 
 __Linguistic commonalities between HR and LR languages__
-<TO DO>
+
+!TO DO
   
 __Does the script used by the language matter?__
 
@@ -26,7 +27,8 @@ Unfortunately, to draw any conclusions regarding downstream results for the 46 l
 We will provide more information on this point in the revised version of our work.
 
 __Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
-<TO DO>
+
+!TO DO
 
 
 # Response to Review #2:
