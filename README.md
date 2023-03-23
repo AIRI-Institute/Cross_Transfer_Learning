@@ -15,13 +15,14 @@ __Lack of statistical significance tests__
 
 Given the extensive number of experiments conducted in our paper, we acknowledge that comprehending all the presented data may be challenging. Therefore, statistical significance tests can aid in formalizing and clarifying the results. Our ideas for tests involve examining the correlation between transfer learning performance across various languages and linguistic characteristics of low-resource languages, utilizing the WALS features as an example (e.g. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100)). We’ll add it in the revision.
 
-__Question A: Dialects in list on LR languages__ //
+__Question A: Dialects in list on LR languages__
+
 Our results are derived from the language classification provided by WALS, where these two languages are treated as distinct. Within the list of 46 low-resource languages, there are no dialects of high-resource languages. 
 Nevertheless, the question of differences between languages and dialects is very theoretical, with varying opinions on the status of certain languages. In this context, we have taken a practical approach and categorized languages into two groups on the amount of resources available, and not on their sociolinguistic statuses, as there are high-resource dialects (e.g. English dialects).
 
+__Question B: Transfer learning between Formal Italian language and "Turinese"__
 
-
-
+Thank you for your question! We believe that transfer learning across different languages and their dialects shows great promise for gaining linguistic insights. As both Italian and Turinese are well-resourced, it is feasibly to carry out experiments in this area.
 
 
 # General Response to Reviewers:
