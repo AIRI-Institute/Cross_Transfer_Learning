@@ -1,7 +1,15 @@
 # Response to Review #1:
 
 # Response to Review #2:
+Thank you for recognizing the novelties and advantages of our method.
 
+__Question A: Data sampling for fine-tuning__
+We conducted the model's fine-tuning on randomized data from various corpora. The objective was to tailor the model to perform well in high-resource languages, and generalization across multiple data sources is not our primary goal. Regarding evaluation, we assess the model performance of low-resource languages parsed from multiple corpora, as we said in Section 4.2.
+
+__Question B: Early stopping and data in validation step__
+
+As mentioned in Section 4.2, we incorporated data from high-resource languages to compute the validation loss. 
+Indeed, the number of training steps has a significant influence on the transferability of the model. Regarding the early stopping, we saved checkpoints every 5% of the epoch and selected the best checkpoint based on the validation performance. Furthermore, we observed that prolonged training of the model could potentially cause overfitting to high-resource language and should be closely monitored to prevent it. We would be happy to include these valuable findings in the revision.
 
 # Response to Review #3:
 Thank you for your comments and interesting questions.
