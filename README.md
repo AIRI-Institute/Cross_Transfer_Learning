@@ -23,7 +23,7 @@ The weaknesses of current models and especially the fertility of tokenizers ([Á
 __Perplexity metric and downstream evaluation__
 
 We understand your concerns about the perplexity metric and agree with its limitations in accurately measuring the "understanding" of language. As we noted in the limitations section, the need for labelled data for low-resource languages poses a challenge in addressing their syntactic and semantic aspects, at least in the case of experiments with transfer learning. 
-Unfortunately, to draw any conclusions regarding downstream results for the 46 low-resource languages we have examined, there is a need for more data (for example, there are several thousands of labelled sentences in Universal Dependencies for 7 low-resource languages). Hence, currently, we cannot address the qualitative analysis of our experiments related to the downstream evaluation of low-resource languages.
+Unfortunately, to draw any conclusions regarding downstream results for the 46 low-resource languages we have examined, there is a need for more data (for example, there are maximum several thousands of labelled sentences in Universal Dependencies for 7 low-resource languages). Hence, currently, we cannot address the qualitative analysis of our experiments related to the downstream evaluation of low-resource languages.
 We will provide more information on this point in the revised version of our work.
 
 __Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
