@@ -1,4 +1,12 @@
 # Response to Review #1:
+Thank you for your detailed comments.
+
+__does data quality matter ?__
+
+Hopefully so! An argument that supports this idea is the success of XLM-R when compared to the multilingual BERT model. One of the key contributors to this performance boost was the cleaner data preprocessing. Following this concern, we excluded from our corpus all the sources where language identification was made automatically.
+However, our research focuses on an "out-of-the-wild" setting where we use reliable data without any specific cleaning. To simulate this scenario, we rely solely on high-quality language-diverse data resources that are typically a prerequisite for any transfer-learning study.
+Therefore, the quality of our data is essential, and we concentrate on using data that is of conventional quality.
+
 
 # Response to Review #2:
 Thank you for recognizing the novelties and advantages of our work.
