@@ -11,8 +11,14 @@ __Linguistic commonalities between HR and LR languages__
 <TO DO>
   
 __Does the script used by the language matter?__
+
 Based on the data collected in our study, it is noticeable that the majority of the low-resource languages use the Latin script.
-In order to consider this question more formally, we will include statistical tests for language script in the revised version (e.g. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100).
+In order to consider this question more formally, we will include statistical tests for language script in the revised version (e.g. test in Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100).
+
+__Is it due to the way these languages are tokenized by mT5 tokenzer?__
+  
+The weaknesses of current models and especially the fertility of tokenizers ([Ács 2019](http://juditacs.github.io/2019/02/19/bert-tokenization-stats.html)) can hinder their effectiveness in certain languages, particularly those with an original script and limited resources.
+
 
 
 
@@ -39,7 +45,7 @@ However, for 7 of the 46 low-resource languages, a few samples are available in 
 
 __lack of statistical significance tests__
 
-Given our paper's extensive number of experiments, we acknowledge that comprehending all the presented data may be challenging. Therefore, statistical significance tests can aid in formalizing and clarifying the results. Our ideas for tests involve examining the correlation between transfer learning performance across various languages and linguistic characteristics of low-resource languages, utilizing the WALS features as an example (e.g. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100)). We'll add it in the revision.
+Given our paper's extensive number of experiments, we acknowledge that comprehending all the presented data may be challenging. Therefore, statistical significance tests can aid in formalizing and clarifying the results. Our ideas for tests involve examining the correlation between transfer learning performance across various languages and linguistic characteristics of low-resource languages, utilizing the WALS features as an example (e.g. tests in Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100)). We'll add it in the revision.
 
 __Question A: Dialects in the list of LR languages__
 
