@@ -1,11 +1,20 @@
 # Response to Review #1:
 Thank you for your detailed comments.
 
-__does data quality matter ?__
+__Does data quality matter ?__
 
 Hopefully so! An argument that supports this idea is the success of XLM-R when compared to the multilingual BERT model. One of the key contributors to this performance boost was the cleaner data preprocessing. Following this concern, we excluded from our corpus all the sources where language identification was made automatically.
 However, our research focuses on an "out-of-the-wild" setting where we use reliable data without any specific cleaning. To simulate this scenario, we rely solely on high-quality language-diverse data resources that are typically a prerequisite for any transfer-learning study.
 Therefore, the quality of our data is essential, and we concentrate on using data that is of conventional quality.
+
+__Linguistic commonalities between HR and LR languages__
+<TO DO>
+  
+__Does the script used by the language matter?__
+Based on the data collected in our study, it is noticeable that the majority of the low-resource languages use the Latin script.
+In order to consider this question more formally, we will include statistical tests for language script in the revised version (e.g. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100).
+
+
 
 
 # Response to Review #2:
