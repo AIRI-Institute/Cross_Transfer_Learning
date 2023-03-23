@@ -19,8 +19,14 @@ __Is it due to the way these languages are tokenized by mT5 tokenzer?__
   
 The weaknesses of current models and especially the fertility of tokenizers ([Ács 2019](http://juditacs.github.io/2019/02/19/bert-tokenization-stats.html)) can hinder their effectiveness in certain languages, particularly those with an original script and limited resources.
 
+__Perplexity metric and downstream evaluation__
 
+We understand your concerns about the perplexity metric and agree with its limitations in accurately measuring the "understanding" of language. As we noted in the limitations section, the need for labelled data for low-resource languages poses a challenge in addressing their syntactic and semantic aspects, at least in the case of experiments with transfer learning. 
+Unfortunately, to draw any conclusions regarding downstream results for the 46 low-resource languages we have examined, there is a need for more data (for example, there are several thousands of labelled sentences in Universal Dependencies for 7 low-resource languages). Hence, currently, we cannot address the qualitative analysis of our experiments related to the downstream evaluation of low-resource languages.
+We will provide more information on this point in the revised version of our work.
 
+__Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
+<TO DO>
 
 
 # Response to Review #2:
@@ -40,8 +46,9 @@ Thank you for your comments and interesting questions.
 
 __Perplexity metric and downstream evaluation__
 
-We understand your concerns about the perplexity metric and agree with its limitations in accurately measuring the "understanding" of language. As we noted in the limitations section, the need for labelled data for low-resource languages poses a challenge in addressing their syntactic and semantic aspects, at least in the case of experiments with transfer learning. Unfortunately, there are no labelled data for all 46 low-resource languages that we considered. Therefore, we cannot address the qualitative analysis of our experiments now.
-However, for 7 of the 46 low-resource languages, a few samples are available in Universal Dependencies. These samples can be used to conduct model probing experiments, which can improve the interpretation of the results for at least some of the low-resource languages. Prior research on model probing has shown that these experiments can detect changes related to syntactic and semantic aspects after transfer learning. In the revised version of our work, we will provide more information on this point and present probing results on the Universal Dependencies data.
+We understand your concerns about the perplexity metric and agree with its limitations in accurately measuring the "understanding" of language. As we noted in the limitations section, the need for labelled data for low-resource languages poses a challenge in addressing their syntactic and semantic aspects, at least in the case of experiments with transfer learning. 
+Unfortunately, to draw any conclusions regarding downstream results for the 46 low-resource languages we have examined, there is a need for more data (for example, there are several thousands of labelled sentences in Universal Dependencies for 7 low-resource languages). Hence, currently, we cannot address the qualitative analysis of our experiments related to the downstream evaluation of low-resource languages.
+We will provide more information on this point in the revised version of our work.
 
 __lack of statistical significance tests__
 
