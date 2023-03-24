@@ -64,4 +64,4 @@ Nevertheless, the question of differences between languages and dialects is very
 
 __Question B: Transfer learning between Italian and Turinese__
 
-This is an interesting direction, but we didn't consider it in this work. We believe that transfer learning across languages and their dialects is promising for gaining linguistic insights. As both Italian and Turinese are well-resourced, it is possible to conduct experiments in this area.
+This is an interesting direction, but we didn't consider it in this work. We believe that transfer learning between languages and their dialects is promising for gaining linguistic insights. As both Italian and Turinese are well-resourced, it is possible to conduct experiments in this area.
