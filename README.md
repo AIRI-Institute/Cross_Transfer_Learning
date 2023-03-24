@@ -38,7 +38,7 @@ We conducted the model's fine-tuning to tailor it for high-resource language and
 __Question B: Early stopping and data in validation step__
 
 As mentioned in Section 4.2, we incorporated data from high-resource languages to compute the validation loss. 
-Indeed, the number of training steps has a significant influence on the model's transferability. Regarding the early stopping, we saved checkpoints every 5% of the epoch and selected the best checkpoint based on the validation performance. Furthermore, we observed that prolonged training could potentially cause overfitting to high-resource language and should be closely monitored to prevent it. We would be happy to include these findings in the revision.
+Indeed, the number of training steps significantly influences the model's transferability. Regarding the early stopping, we saved checkpoints every 5% of the epoch and selected the best checkpoint based on the validation performance. Furthermore, we observed that prolonged training could potentially cause overfitting to high-resource language and should be closely monitored to prevent it. We would be happy to include these findings in the revision.
 
 # Response to Review #3:
 Thank you for your comments and interesting questions.
