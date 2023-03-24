@@ -21,7 +21,7 @@ Thanks for these important questions! Indeed, we have not closely explored the r
 
 Given our paper's extensive number of experiments, we understand that comprehending all the presented data may be challenging and agree that more interpretation is needed.
 While most transfer learning studies focus on languages within the top hundred most popular ([Deshpande et al. 2022](https://aclanthology.org/2022.naacl-main.264.pdf), [Dolicki et al. 2021](https://arxiv.org/pdf/2105.05975.pdf)) and rely on downstream evaluations to interpret their findings, we face limitations to conduct the same setup due to the scarcity of labelled data required.
-Therefore, statistical significance tests can aid in formalizing and clarifying the results in the case of extremely low-resource languages, which we considered. 
+Therefore, statistical tests can aid in formalizing and clarifying the results in the case of extremely low-resource languages, which we considered. 
 We have several ideas for tests, including examining the correlation between transfer learning performance and linguistic characteristics of low-resource languages using WALS features. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100) contains relevant tests. We'll add it in the revision.
 
 
@@ -55,9 +55,9 @@ Unfortunately, to draw any conclusions regarding downstream results for the 46 l
 We will provide more information on this point in the revised version.
 
 
-__lack of statistical significance tests__
+__lack of statistical tests__
 
-Given our paper's extensive number of experiments, we acknowledge that comprehending all the presented data may be challenging. Therefore, statistical significance tests can aid in formalizing and clarifying the results. 
+Given our paper's extensive number of experiments, we acknowledge that comprehending all the presented data may be challenging. Therefore, statistical tests can aid in formalizing and clarifying the results. 
 We have several ideas for tests, including examining the correlation between transfer learning performance and linguistic characteristics of low-resource languages using WALS features. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100) contains relevant tests. We'll add it in the revision.
 
 __Question A: Dialects in the list of LR languages__
