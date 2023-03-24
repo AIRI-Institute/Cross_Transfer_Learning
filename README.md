@@ -7,28 +7,26 @@ Hopefully so! An argument that supports this idea is the success of XLM-R when c
 However, our research focuses on an "out-of-the-wild" setting where we use reliable data without any specific cleaning. To simulate this scenario, we rely solely on high-quality language-diverse data resources that are typically a prerequisite for any transfer-learning study.
 Therefore, the quality of our data is essential, and we concentrate on using data that is of conventional quality.
 
-__Linguistic commonalities between HR and LR languages__
-
-!TO DO
-  
-__Does the script used by the language matter?__
-
-Based on the data collected in our study, it is noticeable that the majority of the low-resource languages use the Latin script.
-In order to consider this question more formally, we will include statistical tests for language script in the revised version (e.g. test in Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100).
-
-__Is it due to the way these languages are tokenized by mT5 tokenzer?__
-  
-The weaknesses of current models and especially the fertility of tokenizers ([Ács 2019](http://juditacs.github.io/2019/02/19/bert-tokenization-stats.html)) can hinder their effectiveness in certain languages, particularly those with an original script and limited resources.
-
 __Perplexity metric and downstream evaluation__
 
 We understand your concerns about the perplexity metric and agree with its limitations in accurately measuring the "understanding" of language. As we noted in the limitations section, the need for labelled data for low-resource languages poses a challenge in addressing their syntactic and semantic aspects, at least in the case of experiments with transfer learning. 
 Unfortunately, to draw any conclusions regarding downstream results for the 46 low-resource languages we have examined, there is a need for more data (for example, there are maximum several thousands of labelled sentences in Universal Dependencies for 7 low-resource languages). Hence, currently, we cannot address the qualitative analysis of our experiments related to the downstream evaluation of low-resource languages.
 We will provide more information on this point in the revised version of our work.
 
+__Linguistic commonalities, Script and tokenization questions__
+
+Thanks for these important questions! Indeed, we have not closely explored the reasons for such improvements in transfer learning. 
+Given our paper's extensive number of experiments, we understand that comprehending all the presented data may be challenging and agree that more interpretation is needed.
+
+While most transfer learning studies focus on languages within the top hundred most popular (as demonstrated in papers such as https://aclanthology.org/2022.naacl-main.264.pdf and https://arxiv.org/pdf/2105.05975.pdf) and rely on downstream evaluations to interpret their findings, as we mentioned before, we face limitations due to the scarcity of labelled data required to conduct the same setup.
+Therefore, statistical significance tests can aid in formalizing and clarifying the results in the case of extremely low-resource languages, which we considered. 
+We have several ideas for tests, including examining the correlation between transfer learning performance and linguistic characteristics of low-resource languages using WALS features. Section 4.9.1 in BLOOM](https://arxiv.org/abs/2211.05100) contains relevant tests. We'll add it in the revision.
+
+
 __Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
 
-!TO DO
+Thanks for pointing this out. We see now that this discussion should be clarified, and we will do so in the revision of the paper.
+
 
 
 # Response to Review #2:
@@ -63,7 +61,7 @@ Nevertheless, the question of differences between languages and dialects is very
 
 __Question B: Transfer learning between Formal Italian language and "Turinese"__
 
-Thank you for your question! We believe that transfer learning across different languages and their dialects is promising for gaining linguistic insights. As both Italian and Turinese are well-resourced, it is feasible to carry out experiments in this area.
+This is an interesting direction, but we did not consider it in this work. We believe that transfer learning across different languages and their dialects is promising for gaining linguistic insights. As both Italian and Turinese are well-resourced, it is feasible to carry out experiments in this area.
 
 
 # General Response to Reviewers:
