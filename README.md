@@ -25,7 +25,10 @@ We have several ideas for tests, including examining the correlation between tra
 
 __Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
 
-Thanks for pointing this out. We see now that this discussion should be clarified, and we will do so in the revision of the paper.
+Regarding the work you mentioned ([Deshpande et al. 2022](https://aclanthology.org/2022.naacl-main.264.pdf)), the sub-word overlap is not a requirement for strong zero-shot transfer learning. In addition, prior work by [Lin et al. 2019](https://aclanthology.org/P19-1301.pdf) stated that usually, the sub-word is omitted in case of low-resource languages due to insufficient data for sub-word extraction.
+That is why we consider the statistical tests as the only formal method for interpreting this tendency with extremely low-resource languages, particularly in cases where downstream evaluation is not feasible for extremely low-resource languages.
+
+We see now that this discussion should be clarified, and we will do so in the revision of the paper.
 
 
 
