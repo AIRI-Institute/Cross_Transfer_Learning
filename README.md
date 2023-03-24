@@ -20,7 +20,7 @@ Given our paper's extensive number of experiments, we understand that comprehend
 
 While most transfer learning studies focus on languages within the top hundred most popular (as demonstrated in papers such as https://aclanthology.org/2022.naacl-main.264.pdf and https://arxiv.org/pdf/2105.05975.pdf) and rely on downstream evaluations to interpret their findings, as we mentioned before, we face limitations due to the scarcity of labelled data required to conduct the same setup.
 Therefore, statistical significance tests can aid in formalizing and clarifying the results in the case of extremely low-resource languages, which we considered. 
-We have several ideas for tests, including examining the correlation between transfer learning performance and linguistic characteristics of low-resource languages using WALS features. Section 4.9.1 in BLOOM](https://arxiv.org/abs/2211.05100) contains relevant tests. We'll add it in the revision.
+We have several ideas for tests, including examining the correlation between transfer learning performance and linguistic characteristics of low-resource languages using WALS features. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100) contains relevant tests. We'll add it in the revision.
 
 
 __Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
