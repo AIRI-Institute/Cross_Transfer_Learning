@@ -28,7 +28,7 @@ We have several ideas for tests, including examining the correlation between tra
 __Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
 
 Regarding the work you mentioned ([Deshpande et al. 2022](https://aclanthology.org/2022.naacl-main.264.pdf)), the sub-word overlap is not a requirement for strong zero-shot transfer learning. In addition, prior work ([Lin et al. 2019](https://aclanthology.org/P19-1301.pdf)) stated that usually, the sub-word is omitted in case of low-resource languages due to insufficient data for sub-word extraction.
-That is why we consider the statistical tests as the only formal method for interpreting this tendency with extremely low-resource languages, particularly in cases where downstream evaluation is not feasible for extremely LR languages.
+That is why we consider the statistical tests as the only formal method for interpreting this tendency with extremely LR languages, particularly in cases where downstream evaluation is not feasible.
 We see now that this discussion should be clarified, and we will do so in the revision of the paper.
 
 
@@ -51,15 +51,15 @@ Thank you for your comments and interesting questions.
 __Perplexity metric and downstream evaluation__
 
 We understand your concerns about the perplexity metric and agree with its limitations in accurately measuring the "understanding" of language. As noted in the limitations section, the need for labelled data for LR languages poses a challenge in addressing their syntactic and semantic aspects. 
-Unfortunately, to draw any conclusions regarding downstream results for the 46 low-resource languages we have examined, there is a need for more data (for example, there are maximum several thousands of labelled sentences in Universal Dependencies for 7 LR languages). Hence, currently, we cannot address the qualitative analysis of our experiments related to the downstream evaluation of LR languages.
+Unfortunately, to draw any conclusions regarding downstream results for the 46 low-resource languages we have examined, there is a need for more data (for example, there are only several thousands of labelled sentences in Universal Dependencies for 7 LR languages). Hence, currently, we cannot address the qualitative analysis of our experiments related to the downstream evaluation of LR languages.
 We will provide more information on this point in the revised version.
 
 
-__lack of statistical tests__
+__Lack of statistical tests__
 
 Given our paper's extensive number of experiments, we acknowledge that comprehending all the presented data may be challenging. Therefore, statistical tests can aid in formalizing and clarifying the results. 
 We have several ideas for tests, including examining the correlation between transfer learning performance and linguistic characteristics of low-resource languages using WALS features. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100) contains relevant tests. We'll add it in the revision.
-
+x
 __Question A: Dialects in the list of LR languages__
 
 Our results are derived from the language classification provided by WALS, where these two languages are treated as distinct. There are no dialects of HR languages within the list of 46 LR languages. 
