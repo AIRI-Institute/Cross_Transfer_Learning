@@ -18,7 +18,7 @@ __Linguistic commonalities, Script and tokenization questions__
 Thanks for these important questions! Indeed, we have not closely explored the reasons for such improvements in transfer learning. 
 Given our paper's extensive number of experiments, we understand that comprehending all the presented data may be challenging and agree that more interpretation is needed.
 
-While most transfer learning studies focus on languages within the top hundred most popular (as demonstrated in [Deshpande et al. 2022](https://aclanthology.org/2022.naacl-main.264.pdf) and [Dolicki et al. 2021](https://arxiv.org/pdf/2105.05975.pdf)) and rely on downstream evaluations to interpret their findings, as we mentioned before, we face limitations due to the scarcity of labelled data required to conduct the same setup.
+While most transfer learning studies focus on languages within the top hundred most popular (as demonstrated in [Deshpande et al. 2022](https://aclanthology.org/2022.naacl-main.264.pdf) and [Dolicki et al. 2021](https://arxiv.org/pdf/2105.05975.pdf)) and rely on downstream evaluations to interpret their findings, as we mentioned before, we face limitations to conduct the same setup due to the scarcity of labelled data required.
 Therefore, statistical significance tests can aid in formalizing and clarifying the results in the case of extremely low-resource languages, which we considered. 
 We have several ideas for tests, including examining the correlation between transfer learning performance and linguistic characteristics of low-resource languages using WALS features. Section 4.9.1 in [BLOOM](https://arxiv.org/abs/2211.05100) contains relevant tests. We'll add it in the revision.
 
@@ -65,6 +65,3 @@ Nevertheless, the question of differences between languages and dialects is very
 __Question B: Transfer learning between Formal Italian language and "Turinese"__
 
 This is an interesting direction, but we did not consider it in this work. We believe that transfer learning across different languages and their dialects is promising for gaining linguistic insights. As both Italian and Turinese are well-resourced, it is feasible to carry out experiments in this area.
-
-
-# General Response to Reviewers:
