@@ -25,7 +25,8 @@ We'll add it in the revision.
 
 __Question A: Did you verify any tokenization-based metrics to compare how "fair" the tokenization is between languages__
 
-Regarding the work you mentioned ([Deshpande et al. 2022](https://aclanthology.org/2022.naacl-main.264.pdf)), considered sub-word overlap only to investigate the correlation with downstream evaluations. In addition, prior work ([Lin et al. 2019](https://aclanthology.org/P19-1301.pdf)) stated that usually, the sub-word is omitted in case of low-resource languages due to insufficient data for sub-word extraction.
+Regarding the work you mentioned ([Deshpande et al. 2022](https://aclanthology.org/2022.naacl-main.264.pdf)), authors considered sub-word overlap in order to investigate the correlation with downstream evaluations.
+In addition, prior work ([Lin et al. 2019](https://aclanthology.org/P19-1301.pdf)) stated that usually, the sub-word is omitted in case of low-resource languages due to insufficient data for sub-word extraction.
 That is why we consider statistical tests as the only formal method for interpreting this tendency with extremely low-resource languages, particularly in cases where downstream evaluation is not feasible.
 
 We see now that this discussion should be clarified, and we'll do so in the revision of the paper.
